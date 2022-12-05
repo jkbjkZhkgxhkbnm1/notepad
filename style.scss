@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Cuprum');
+
+h3 {
+  text-align: center;
+  font-family: 'Cuprum', sans-serif;
+  font-size: 2.5em;
+}
+.notepad-container {
+  width: 40%;
+  min-width: 480px;
+  background: #dadada;
+  display: block;
+  float: left;
+  margin: 0 auto;
+  
+  textarea {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 2em;
+    height: 10em;
+  }
+}
+
+
+button#save {
+  width: 91.5%;
+  display: block;
+  margin: 1.5em auto 1em auto;
+  height: 2.5em;
+} 
+
+
+ul#notes {
+  display: block;
+  width: 40%;
+  min-width: 480px;
+  float: left;
+  
+  li {
+    display: block;
+    padding: 10px 0;
+    
+    ul.listcolors {
+      padding-left: 0;
+      
+      li.colors {
+      display: inline-block;
+        a {
+          height: 20px;
+          width: 20px;
+          display: inline-block;
+          background: #000;
+          border-radius: 50%;
+          border: 1px solid #000;
+          margin: 0 2px;
+        }
+
+        a.red {
+          background: #FF7A68;
+        }
+
+        a.blue {
+          background: #91EFED;
+        }
+
+        a.purple {
+          background: #CB8CFF;
+        }
+        
+        a.green {
+          background: #17EF89;
+        }
+      }
+    }
+  }
+}
+
+
